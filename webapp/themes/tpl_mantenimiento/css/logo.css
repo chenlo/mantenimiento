@@ -1,0 +1,29 @@
+h1.logo {  
+	position: relative;  
+	font-size: 40px;  
+	margin-top: 0;  
+	font-family: 'Myriad-Pro', 'Myriad', helvetica, arial, sans-serif;  
+	text-shadow: 2px 3px 3px #292929;  
+	letter-spacing: -2px;  
+	-webkit-text-stroke: 1px white;  
+}    
+h1.logo a {  
+	text-decoration: none;  
+	color: #ffffff;  
+	position: absolute;  
+
+	-webkit-mask-image: -webkit-gradient(linear, left top, left bottombottom, from(rgba(0,0,0,1)), color-stop(50%, rgba(0,0,0,0)), to(rgba(0,0,0,1)));  
+	text-shadow: 0 2px 0 #e9e9e9;  
+	-webkit-transition: all .3s;  
+	-moz-transition: all .3s;  
+	transition: all .3s;  
+}  
+
+h1.logo a:hover {  
+    color: #1f7184;  
+}  
+
+h1.logo:after {  
+    color: #dbdbdb;  
+    content : attr(data-title);  
+}  

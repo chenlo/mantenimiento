@@ -1,0 +1,192 @@
+html body{
+	width:100%;
+	height:100%;
+	padding:0px;
+	margin:0px;
+	overflow:auto;
+	font-family:arial;
+	font-size:12px;
+	color:#6e6e6e;
+	background-color:#000
+}
+
+#header-bar{
+	height:53px;
+	background-color:#000;
+	border-bottom:1px solid #191919;
+	z-index:100;
+	line-height:53px;
+	margin-bottom:1px
+}
+    
+#header-bar p.meta-data{padding:0px;margin:0px;float:left; padding-left:20px;}
+#header-bar p.meta-data p{display:inline;margin:0px}
+#header-bar p.meta-data a{text-decoration:none;color:#6e6e6e}
+#header-bar p.meta-data a.purchase{margin-left:10px;border-left:1px solid #6e6e6e;padding-left:15px}
+#header-bar p.meta-data a:hover,#header-bar p.meta-data a.activated{color:#fff}
+    
+#preview-frame{width:100%;background-color:#fff}
+    
+.logo img{
+	float:right;
+	padding-right:20px;
+	padding-top:12px;
+}
+
+.breadcrumbs {
+    font-size:1.5em;
+    position:relative;
+    float:right;
+    margin-right: 5%;
+}
+.breadcrumbs  a{ font-weight:bold; font-size:16px; color:#ffffff;}
+.breadcrumbs  a:hover{color:#474747;}
+
+.portlet
+{
+
+}
+
+.portlet-decoration
+{
+	padding: 3px 8px;
+	background: #B7D6E7;
+	border-left: 5px solid #6FACCF;
+}
+
+.portlet-title
+{
+	font-size: 12px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+	color: #298dcd;
+}
+
+.portlet-content
+{
+	font-size:0.9em;
+	margin: 0 0 15px 0;
+	padding: 5px 8px;
+	background:#EFFDFF;
+}
+
+.portlet-content ul
+{
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+
+.portlet-content li
+{
+	padding: 2px 0 4px 0px;
+}
+
+.operations
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.operations li
+{
+	padding-bottom: 2px;
+}
+
+.operations li a
+{
+	font: bold 12px Arial;
+	color: #0066A4;
+	display: block;
+	padding: 2px 0 2px 8px;
+	line-height: 15px;
+	text-decoration: none;
+}
+
+.operations li a:visited
+{
+	color: #0066A4;
+}
+
+.operations li a:hover
+{
+	background: #80CFFF;
+}
+
+/** ANCHO DE LA TABLA*/
+
+.span-19 {width:75%;}
+.span-5 {width:20%; float:right;}
+
+/**Tabla Mi perfil*/
+
+table.dataGrid {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #a9c6c9;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+table.dataGrid th {
+	border-width: 1px;
+	padding: 3px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+table.dataGrid td {
+	border-width: 1px;
+	padding: 3px;
+	border-style: solid;
+	border-color: #a9c6c9;
+}
+.oddrowcolor{
+	background-color:#d4e3e5;
+}
+.evenrowcolor{
+	background-color:#c3dde0;
+}
+
+/**Lista incidencias*/
+
+#yw0 .list-view .items .view {
+
+}
+#yw0 .view a {
+	color: #F58249;
+	font-size: 1.1em;
+}
+#yw0 .view  b {
+	color: #2E6AB1;
+}
+#yw0 .view, #yw1 div.items { 
+	height: 100px;
+	width: 90%; 
+	padding: 20px;
+	padding-bottom: 40px;
+	background-color: white; 
+
+	border: 1px solid #2E6AB1;
+
+	/* outer shadows  (note the rgba is red, green, blue, alpha) */
+	-webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4); 
+	-moz-box-shadow: 0px 1px 6px rgba(23, 69, 88, .5);
+
+	/* rounded corners */
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 7px; 
+	border-radius: 7px;
+
+
+	/* gradients */
+	background: -webkit-gradient(linear, left top, left bottom, 
+	color-stop(0%, white), color-stop(15%, white), color-stop(100%, #D7E9F5)); 
+	background: -moz-linear-gradient(top, white 0%, #e9e9e9 55%, #D5E4F3 130%); 
+	margin: 10px;
+}
+
